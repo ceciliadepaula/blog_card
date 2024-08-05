@@ -1,0 +1,94 @@
+body{
+    min-height: 100svh;
+    margin: 0;
+    background-color: $yellow;
+    font-family: $font;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-0{
+    padding: 0;
+}
+
+.m-0{
+    margin: 0;
+}
+
+.text-1,
+.text-2,
+.text-3,
+.text-4{
+    line-height: 150%;
+    letter-spacing: 0px;
+    color: $gray-950;
+}
+
+.text-1{
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.text-2{
+    font-weight: 500;
+    font-size: 16px;
+    color: $gray-500;
+}
+
+.text-3{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.text-4{
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.card{
+    background-color: $white;
+    border-radius: 20px;
+    max-height: 522px;
+    width: 327px;
+    border: 2px solid $gray-950;
+    padding: 24px;
+    filter: drop-shadow(8px 8px 0px $gray-950);
+    transition: filter 0.3s ease;
+}
+
+.card:hover{
+    cursor: pointer;
+    filter: drop-shadow(14px 14px 0px $gray-950);
+}
+
+.card:hover h1{
+    color: $yellow;
+}
+
+.image{
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+
+.badge{
+    background-color: $yellow;
+    border-radius: 4px;
+    padding: 5px 14px;
+    width: fit-content;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+.user-image{
+    height: 32px;
+    width: 32px;
+}
